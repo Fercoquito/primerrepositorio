@@ -6,109 +6,114 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Coco Estudio Creativo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
   <link rel="stylesheet " href="./css/style.css">
 </head>
 
 <body>
-  <header class="Encabezado">
-    <nav class="navegacion">
-      <img class="logo"   src="./img/logo.jpg" alt="">
-      <ul>
-        <li class="active"> <a href="./index.html"> HOME </a> </li>
-        <li> <a href="./Nosotros.html"> NOSOTROS </a> </li>
-        <li> <a href="./Servicios.html">SERVICIOS </a> </li>
-        <li> <a href="./Trabajos.html"> TRABAJOS</a> </li>
-        <li> <a href="./Contacto.html">CONTACTO</a> </li>
-      </ul>
+  <header >
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"> <img class="container" src="./img/logo.jpg" alt="" width="120" height="50" ></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link "  href="./index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Nosotros.html">NOSOTROS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./Servicios.html">SERVICIOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Trabajos.html">TRABAJOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Contacto.html">CONTACTO</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
   </header>
-
   <main>
-    <section class="seccionServicios">
-      <h2 class="tituloServicios"> SITIOS WEB</h2>
-      <h3 class="parrafoServicios"> Mostrale al mundo lo que tu marca tiene
-        para dar, con un sitio propio que te da la
-        libertad para customizarla con tu propia
-        identidad y hacer que tu cliente se lleve
-        una mejor experiencia de tu negocio.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae reprehenderit voluptate, 
-        ducimus iste, impedit laboriosam atque, iure alias sunt sint odit eius cum? Distinctio, error! Voluptatibus quam veniam quae sit.
-      </h3>
-      <img src="./img/servicios 1.jpg">
-    </section>
 
-    <section class="seccionServicios1">
-      <h2 class="tituloServicios1"> BRANDING CREATIVO </h2>
-      <h3 class="parrafoServicios1"> La identidad de una marca es mucho
-        más que un logo lindo:
-        es la personalidad y la promesa que le
-        hacés a tus clientes.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae reprehenderit voluptate, 
-        ducimus iste, impedit laboriosam atque, iure alias sunt sint odit eius cum? Distinctio, error! Voluptatibus quam veniam quae sit.
-      </h3>
-    
-      <img src="./img/servicios 2.jpg">
-    </section>
+    <section class="container">
 
-    <section class="seccionServicios2">
-      <h2 class="tituloServicios2"> VIDEOS LIRYCS </h2>
-      <h3 class="parrafoServicios1"> La identidad de una marca es mucho
-        más que un logo lindo:
-        es la personalidad y la promesa que le
-        hacés a tus clientes.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae reprehenderit voluptate, 
-        ducimus iste, impedit laboriosam atque, iure alias sunt sint odit eius cum? Distinctio, error! Voluptatibus quam veniam quae sit.
-      </h3>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/frLG-JIqQek" title="YouTube video player"
-        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
-    </section>
+      <div class="row mt-5 m-1">
+            
+        <div  class="col-md-8 d-flex flex-column justify-content-center bg-dark text-white p-3">              
+          <h1> Diseño web profesional </h1>
+          <p>
+            Dommia empezó en 1997 siendo una empresa proveedora de hosting y housing. Tras más de 20 años de experiencia, nos hemos convertido en una agencia de diseño de páginas web de garantías. Tenemos muy claro que cada cliente es diferente y tiene necesidades distintas. Por eso, ofrecemos soluciones de calidad adaptadas a cada proyecto y al presupuesto del que se dispone.
+            
+            Nuestro equipo está formado por profesionales especializados en materias como la programación, el diseño, el marketing o la comunicación para poder ofrecer un servicio de desarrollo web integral. Tan solo nos tienes que explicar qué buscas y, junto a ti, trabajaremos para lograrlo.
+          </p>
+        </div> 
 
+  </div>
 
-  </main>
-
-  <section id="footer">
-    <footer>
-
-      <div class="contenedorFooter">
-
-        <div class="columna1">
-          <h1>Mas informacion</h1>
-          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsam omnis unde beatae et mollitia.
-            Debitis accusantium officiis explicabo consectetur </p>
-        </div>
-
-        <div class="columna2">
-          <h1> Redes sociales</h1>
-
-          <div class="fila">
-            <a target="_blank" href="https://www.instagram.com/cocoestudiocreativo/"> Instagram </a>
-            <a target="_blank" href="https://www.facebook.com/?ref=logo">Facebook</a>
-            <a target="_blank" href="https://www.facebook.com/?ref=logo">Facebook</a>
-            <a target="_blank" href="https://ar.linkedin.com/">Linkedin</a>
-            <a target="_blank" href="https://twitter.com/home">Twitter</a>
-
-
+    <section> 
+      <div id="carouselExampleControls" class="carousel slide w-100% mt-5" data-bs-ride="carousel">
+        <div class="carousel-inner ">
+          <div class="carousel-item active">
+            <img src="./img/carru1.jpg" class="d-block w-100" width="620px" height="450px"  alt="...">
           </div>
-
+          <div class="carousel-item">
+            <img src="./img/carru2.jpg" class="d-block w-100" width="620px" height="450px" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/carru3.jpg" class="d-block w-100" width="620px" height="450px"  alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/tarjeta 1.jpg" class="d-block w-100" width="620px" height="450px" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/tarjeta 2.jpg" class="d-block w-100 "width="620px" height="450px" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/tarjeta3.jpg" class="d-block w-100" width="620" height="450" alt="...">
+          </div>
         </div>
-      </div>
-      </div>
-      <div class="finalFooter">
-        <a href=" ">informacion</a> /
-        <a href=" ">Privacion y Politica</a> /
-        <a href=" ">Termianos y condiciones</a> /
-        <p>2022 - Coco Estudio Creativo</p>
-
-        </a>
-
-
-
-
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
 
-    </footer>
-  </section>
+      <div class="row mt-5 m-1">
+            
+        <div  class="col-md-8 d-flex flex-column justify-content-center bg-dark text-white p-3">              
+          <h1> Desarrollo de sitios web optimizados</h1>
+          <p>Dommia no es tan solo una empresa de programación de páginas web. Es mucho más. Tenemos todos los aspectos de creación muy en cuenta, ya que cada uno de ellos es fundamental para terminar consiguiendo beneficios.
+
+            La optimización de las páginas web es uno de nuestros pilares fundamentales. Un diseño web optimizado es aquel que además de ser atractivo para el usuario (la cara visible de la web), lo es también para buscadores como Google (todo lo relativo al código). Tener en cuenta el SEO desde que se empieza una web es imprescindible para tener éxito y posicionar lo más arriba posible, lo que se traduce en más visitas y más conversiones. Cambiar la arquitectura de la página más tarde comportará una serie de gastos y tiempo. ¿Por qué no hacerlo bien desde el principio?
+          </p>
+        </div> 
+
+      </div>
+
+
+    </section> 
+  </main>
+  <footer class="bg-dark text-center text-lg-start mt-5">
+    <!-- Copyright -->
+    <div class="text-center p-3 text-white" style="background-color:black">
+      © 2022 Copyright:
+      <a class="text-white " href="#"> COCOestudiocreativo</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 
 </html>

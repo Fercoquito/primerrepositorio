@@ -9,36 +9,7 @@
   }
 
 /* Menu*/
-.Encabezado{
-    background-color: black;
-    width: 100%;
-    height: 130px;
-    display: flex;
-    
-  
-    
 
-}
-.navegacion{
-    display: flex;
-    align-items: center;
-       
-}
-.logo{
-    width: 150px;
-    height: 60px;
-   margin: 5px;
-}
-.navegacion ul li {
-    display: inline-block;
-    padding: 10px;
-    margin-top: 20px;
-    margin-right: 10px;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    background-color: black;
-
-   }
 li a{
     text-decoration: none;
     color: yellow;
@@ -52,35 +23,17 @@ li a{
 main{
     margin-top: 20px;
 }
-    
+   
+
 /* Titulo principal*/
-.contenedorDeimagen{
-    width: 100%;
-    height: 100%;
+.hero{
+    
     background-image:url(../img/fondo1.jpg);
-    background-size: 100%;
-
-}
-.titulo{
-    padding-top: 150px;
-    color: white;
+    height: 60vh;
+    
+    padding-top: 10rem;
 }
 
-.tituloPrincipal{
-    font-size: 50px;
-    padding-left: 20px;
-    }
-.textoPrincipal{
-   width: 50%;
-font-size:40px;
-padding-left: 20px;    
-}    
-     
- .textoUltimo{
-    font-size: 30px;
-    padding: 20px;
-    padding-left: 20px;
-    }
 
     /* Secciones */
 
@@ -302,12 +255,12 @@ padding-left: 20px;
 
 
 body{
-    background-color: white;
+    background-color:beige;
 }
 
 
 
-/*pagina nosotros*/
+/**
 
 .seccionNosotros,
 .seccionNosotros1,
