@@ -39,36 +39,22 @@ main{
 @media screen and (max-width:576px) {
     .hero{
         width: 100%;
-    }
-
-
- 
-    h3 .text-white{
-        sm-pt-1 p-2
+    
 
     }
-    .container .row {
 
-        gap: 4;
-    }
 }
 
 
-}
+
     
 
 
 @media screen and (max-width:992px) {
-
-  
-
-
-
+    .hero{
+        width: 100%;
+    }
 
 
 
-
-
-
-
-
+}
