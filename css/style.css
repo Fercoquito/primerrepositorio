@@ -1,24 +1,4 @@
 
-/* */
-@import url('https://fonts.googleapis.com/css2? family= Archivo+Narrow:ital,wght@0,400;0,700;1,500 & display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family:  'Archivo Narrow', sans-serif;
-  }
-
-/* Menu*/
-
-
-
-    li a:hover{
-        background-color: rgb(235, 236, 147);
-        color: black;
-    }
-main{
-    margin-top: 20px;
-}
    
 
 /* Titulo principal*/
@@ -29,6 +9,27 @@ main{
     
     padding-top: 10rem;
 }
+
+
+.titulo{
+    font-size: 2rem; 
+    background-color: black;  
+    color: yellow; 
+}
+
+.subtitulo{
+    font-size: 8rem;
+    background-color: black;
+    color: yellow;
+
+}
+.parrafo1{
+    font-size: 2rem;
+    color: white;
+}
+
+
+
 
   
  

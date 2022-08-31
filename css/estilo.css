@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2? family= Archivo+Narrow:ital,wght@0,400;0,700;1,500 & display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Archivo Narrow", sans-serif;
+}
+
+*::-moz-selection {
+  background-color: yellow;
+  color: black;
+}
+
+*::selection {
+  background-color: yellow;
+  color: black;
+}
+
+li a:hover {
+  background-color: rgb(235, 236, 147);
+  color: black;
+}
+
+main {
+  margin-top: 20px;
+}
+
+.hero {
+  background-image: url(../img/fondo1.jpg);
+  height: 60vh;
+  padding-top: 10rem;
+}
+.hero .titulo {
+  font-size: 2rem;
+  background-color: black;
+  color: yellow;
+}
+.hero .subtitulo {
+  font-size: 8rem;
+  background-color: black;
+  color: yellow;
+}
+.hero .parrafo1 {
+  font-size: 2rem;
+  color: white;
+}/*# sourceMappingURL=estilo.css.map */
