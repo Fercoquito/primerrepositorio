@@ -4,4 +4,16 @@ $fontNarrow: 'Archivo Narrow', sans-serif;
 
 $mainColor:yellow;
 
-$secondcolor: black;
+$secondaryColor: black;
+
+
+%iconitos {
+    width: 100px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+
+    &:hover {
+        background-color: rgb(226, 236, 83);
+    }
+}

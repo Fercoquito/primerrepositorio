@@ -1,0 +1,51 @@
+.pie {
+    display:flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding-block: 20px;
+
+    .iconos {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        
+        .fab {
+            padding: 2rem;
+            border-radius: 2rem;
+        }
+    }
+}
+
+
+
+$redes: (
+    facebook: blue,
+    instagram: #8b0960,
+    whatsapp: #da7c10    
+);
+
+@each $redsocial, $colordered in $redes {
+    .fa-#{$redsocial} {
+        background-color: $colordered;
+    }
+}
+
+
+
+
+.fa-facebook {
+    @extend %iconitos;
+}
+
+.fa-whatsapp {
+    @extend .fa-facebook;
+}
+.fa-instagram {
+
+    @extend .fa-facebook;
+}
+
+.cajitas .cajita2 {
+    background-color: map-get($redes, facebook);
+}

@@ -1,4 +1,14 @@
 @import url("https://fonts.googleapis.com/css2? family= Archivo+Narrow:ital,wght@0,400;0,700;1,500 & display=swap");
+.fa-facebook, .fa-instagram, .fa-whatsapp {
+  width: 100px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+.fa-facebook:hover, .fa-instagram:hover, .fa-whatsapp:hover {
+  background-color: rgb(226, 236, 83);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -16,13 +26,185 @@
   color: black;
 }
 
-li a:hover {
-  background-color: rgb(235, 236, 147);
+header {
+  background-color: yellow;
+  display: flex;
+  gap: 20px;
+  grid-gap: 20px;
+}
+header .logo {
+  width: 100px;
+}
+header .navbar {
+  display: flex;
+  align-items: center;
+}
+header .navbar .menu {
+  display: flex;
+  list-style-type: none;
+  gap: 10px;
+  grid-gap: 10px;
+}
+header .navbar .menu .menu__item {
+  -webkit-animation: swirl-in-fwd 0.6s ease-out both;
+  animation: swirl-in-fwd 0.6s ease-out both;
+}
+header .navbar .menu .menu__item a {
+  background: black;
+  color: yellow;
+  text-decoration: none;
+  padding: 1rem;
+}
+header .navbar .menu .menu__item a:hover {
+  background: white;
   color: black;
 }
+header .navbar .menu .menu__item:nth-child(5) a {
+  background: black;
+  border-color: black;
+  color: white;
+}
+header .navbar .menu .menu__item:nth-child(1) {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+header .navbar .menu .menu__item:nth-child(2) {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+header .navbar .menu .menu__item:nth-child(3) {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+}
+header .navbar .menu .menu__item:nth-child(4) {
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
 
-main {
-  margin-top: 20px;
+@-webkit-keyframes swirl-in-fwd {
+  0% {
+    transform: rotate(-540deg) scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(0) scale(1);
+    opacity: 1;
+  }
+}
+@keyframes swirl-in-fwd {
+  0% {
+    transform: rotate(-540deg) scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(0) scale(1);
+    opacity: 1;
+  }
+}
+.tarjetitas {
+  padding: 60px;
+  display: flex;
+  gap: 30px;
+}
+.tarjetitas .tarjetita {
+  background-color: yellow;
+  border-radius: 30px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+}
+.tarjetitas .tarjetita .informacion {
+  padding: 0 20px 20px 20px;
+}
+.tarjetitas .tarjetita .tarjetita__imagen {
+  max-width: 100%;
+}
+.tarjetitas .tarjetita.tarjetitados {
+  flex: 1.5;
+}
+.tarjetitas .tarjetitablue {
+  background-color: blue;
+}
+.tarjetitas .tarjetitayellow {
+  background-color: yellow;
+}
+.tarjetitas .tarjetitabrown {
+  background-color: brown;
+}
+
+.cajitas {
+  margin-bottom: 3rem;
+  gap: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.cajitas .cajita {
+  background: yellow;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cajitas .cajita1 {
+  width: 300px;
+  height: 150px;
+}
+
+.cajitas .cajita2 {
+  width: 150px;
+  height: 200px;
+}
+
+.cajitas .cajita3 {
+  width: 300px;
+  height: 150px;
+}
+
+.cajitas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  padding-block: 1rem;
+}
+
+.pie {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  padding-block: 20px;
+}
+.pie .iconos {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.pie .iconos .fab {
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.fa-facebook, .fa-instagram, .fa-whatsapp {
+  background-color: blue;
+}
+
+.fa-instagram {
+  background-color: #8b0960;
+}
+
+.fa-whatsapp {
+  background-color: #da7c10;
+}
+
+.cajitas .cajita2 {
+  background-color: blue;
 }
 
 .hero {
