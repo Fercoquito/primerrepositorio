@@ -8,51 +8,7 @@ header {
         width: 100px;
     }
 
-    .navbar {
-        display: flex;
-        align-items: center;
-
-        .menu {
-            display: flex;
-            list-style-type: none;
-            gap: 10px;
-            grid-gap: 10px;
-
-            .menu__item {
-                -webkit-animation:swirl-in-fwd .6s ease-out both;
-                animation:swirl-in-fwd .6s ease-out both;
-
-                a {
-                    background:$secondaryColor;
-                    color: $mainColor;
-                    text-decoration: none;
-                    padding: 1rem;
-
-                    &:hover {
-                        background: white;
-                        color:$secondaryColor;
-                    }
-                }
-
-                &:nth-child(5) {
-
-                    a {
-                        background: $secondaryColor;
-                        border-color: $secondaryColor;
-                        color: white;
-                    }
-                }
-            }
-
-            @for $item from 1 to 5 {
-
-                .menu__item:nth-child(#{$item}) {
-                    animation-delay: $item*0.2s;
-                }
-                
-            }
-        }
-    }
+  
 }
 
  @-webkit-keyframes swirl-in-fwd{0%{-webkit-transform:rotate(-540deg) scale(0);transform:rotate(-540deg) scale(0);opacity:0}100%{-webkit-transform:rotate(0) scale(1);transform:rotate(0) scale(1);opacity:1}}
