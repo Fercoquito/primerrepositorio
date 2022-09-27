@@ -4,8 +4,7 @@
 /* Titulo principal*/
 .hero{
     
-    background-image:url(../img/fondo1.jpg);
-    height: 60vh;
+    background-image:url("../img/fondo1.jpg");
     
     padding-top: 10rem;
 }
@@ -37,25 +36,3 @@
 
 /* Responsive*/
 
-@media screen and (max-width:576px) {
-    .hero{
-        width: 100%;
-    
-
-    }
-
-}
-
-
-
-    
-
-
-@media screen and (max-width:992px) {
-    .hero{
-        width: 100%;
-    }
-
-
-
-}

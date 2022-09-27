@@ -26,8 +26,30 @@
   color: black;
 }
 
+header {
+  background-color: yellow;
+}
 
-
+@-webkit-keyframes swirl-in-fwd {
+  0% {
+    transform: rotate(-540deg) scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(0) scale(1);
+    opacity: 1;
+  }
+}
+@keyframes swirl-in-fwd {
+  0% {
+    transform: rotate(-540deg) scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(0) scale(1);
+    opacity: 1;
+  }
+}
 .tarjetitas {
   padding: 60px;
   display: flex;
@@ -135,8 +157,7 @@
 }
 
 .hero {
-  background-image: url(../img/fondo1.jpg);
-  height: 60vh;
+  background-image: url("../img/fondo1.jpg");
   padding-top: 10rem;
 }
 .hero .titulo {
